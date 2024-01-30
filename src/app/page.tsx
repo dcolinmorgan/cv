@@ -172,6 +172,23 @@ export default function Page() {
             })}
           </div>
         </Section>
+
+        <Section className="print-force-new-page scroll-mb-16">
+          <h2 className="text-xl font-bold">Publications</h2>
+          <div className="-mx-3 grid grid-cols-1 gap-3 print:grid-cols-3 print:gap-2 md:grid-cols-2 lg:grid-cols-3">
+            {RESUME_DATA.Publications.map((project) => {
+              return (
+                <PublicationCard
+                  title={publication.title}
+                  authors={publication.authors}
+                  description={publication.description}
+                  date={publication.techStack}
+                  link={"link" in publication ? publication.link.href : undefined}
+                />
+              );
+            })}
+          </div>
+        </Section>
       </section>
 
       <CommandMenu
