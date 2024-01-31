@@ -107,12 +107,13 @@ export const RESUME_DATA = {
 
   ],
   skills: [
+    "Graph-Theory",
     "Python",
     "RAPIDS/CUDA",
-    "R",
-    "Bash",
+    "Machine Learning",
     "Bioinformatics",
-    "Graph-Theory"
+    "singularity/docker",
+    "snakemake"
   ],
   projects: [
     {

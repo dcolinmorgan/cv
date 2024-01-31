@@ -189,6 +189,7 @@ export default function Page() {
             {RESUME_DATA.publications.map((publication) => {
               return (
                 <PublicationCard
+                  key={publication.title}
                   title={publication.title}
                   description={publication.description}
                   tags={publication.tags}
