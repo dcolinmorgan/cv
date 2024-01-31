@@ -8,7 +8,7 @@ import { GlobeIcon, MailIcon, PhoneIcon } from "lucide-react";
 import { Button } from "../components/ui/button";
 import { RESUME_DATA } from "../data/resume-data";
 import { ProjectCard } from "../components/project-card";
-
+import { PublicationCard } from "../components/publication-card";
 export const metadata: Metadata = {
   title: `${RESUME_DATA.name} | ${RESUME_DATA.about}`,
   description: RESUME_DATA.summary,
@@ -176,13 +176,13 @@ export default function Page() {
         <Section className="print-force-new-page scroll-mb-16">
           <h2 className="text-xl font-bold">Publications</h2>
           <div className="-mx-3 grid grid-cols-1 gap-3 print:grid-cols-3 print:gap-2 md:grid-cols-2 lg:grid-cols-3">
-            {RESUME_DATA.Publications.map((project) => {
+            {RESUME_DATA.publications.map((publication) => {
               return (
                 <PublicationCard
                   title={publication.title}
-                  authors={publication.authors}
                   description={publication.description}
-                  date={publication.techStack}
+                  tags={publication.tags}
+                  // date={publication.techStack}
                   link={"link" in publication ? publication.link.href : undefined}
                 />
               );

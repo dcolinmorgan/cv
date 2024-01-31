@@ -74,7 +74,7 @@ export const RESUME_DATA = {
       link: "https://graphistry.com",
       badges: ["Remote"],
       title: "Junior Research Engineer",
-      logo: GraphistryLogo,
+      // logo: GraphistryLogo,
       start: "2022",
       end: "tbd",
       description:
@@ -85,7 +85,7 @@ export const RESUME_DATA = {
       link: "hms.harvard.edu",
       badges: ["Boston, MA"],
       title: "Postdoctoral Research Fellow",
-      logo: HMSLogo,
+      // logo: HMSLogo,
       start: "2019",
       end: "2021",
       description:
@@ -96,7 +96,7 @@ export const RESUME_DATA = {
       link: "hku.hk",
       badges: [],
       title: "Research Fellow",
-      logo: HKULogo,
+      // logo: HKULogo,
       start: "2021",
       end: "2022",
       description:
@@ -122,7 +122,7 @@ export const RESUME_DATA = {
         "GPU",
       ],
       description: "An end-to-end gpu feature encoder developed for Graphistry",
-      logo: CUCATLogo,
+      // logo: CUCATLogo,
       link: {
         label: "github.com/graphistry/cu-cat",
         href: "github.com/graphistry/cu-cat",
@@ -130,10 +130,9 @@ export const RESUME_DATA = {
     },
     {
       title: "graphistry",
-      techStack: ["python"...],
+      techStack: ["python", "RAPIDS", "GPU"],
       description:
         "Graph Vizualization built on GPUs",
-      logo: GraphistryLogo,
       link: {
         label: "graphistry.com",
         href: "https://graphistry.com/",
@@ -144,7 +143,7 @@ export const RESUME_DATA = {
       techStack: ["python","R","Bash"],
       description:
         "Message Passing Family of Algorithms for Inferring Biological Networks",
-      logo: NetZooLogo,
+      // logo: NetZooLogo,
       link: {
         label: "github.com/NetZoo",
         href: "https://netzoo.github.io/",
@@ -154,21 +153,22 @@ export const RESUME_DATA = {
       title: "GeneSPIDER",
       techStack: ["MATLAB","R","python"],
       description:
-      logo: Minimal,
-      "Platform for synthetic biological data generation and network inference",
+        "Platform for synthetic biological data generation and network inference",
+      // logo: Minimal,
       link: {
         label: "genespider.github.io",
         href: "https://genespider.github.io/",
       },
     },
-  ]
+  ],
   publications: [
     {
       title: "Using Methylation data to improve transctipion factor binding prediction",
-      techStack: ["PostDoc","Harvard","Python","Bash"],
+      // techStack: ["PostDoc","Harvard","Python","Bash"],
       description:
         "Repurposing open-source data to improve TF-binding prediction over conventional inference methods",
       // logo: BarepapersLogo,
+      tags: ["Bioinformatics", "Machine Learning", "Epigenetics"],
       link: {
         label: "KEPI 2309826",
         href: "https://doi.org/10.1080/15592294.2024.2309826",
@@ -176,9 +176,10 @@ export const RESUME_DATA = {
     },
     {
       title: "GeneSPIDER",
-      techStack: ["MATLAB"],
+      // techStack: ["MATLAB"],
       description: "Inferring biological networks at scale from single-cell and bulk -omics data",
-      logo: GSLogo,
+      // logo: GSLogo,
+      tags: ["Bioinformatics", "Network Biology", "Machine Learning"],
       link: {
         label: "genespider.github.io",
         href: "https://genespider.github.io/",
