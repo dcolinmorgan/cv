@@ -33,7 +33,7 @@ export const RESUME_DATA = {
     I lead teams effectively, ensuring an environment where people can do their best work. \
     Currently, I work mostly with Python, CUDA/RAPIDS and Bash. \
     I have over 10 years of experience in working with universities and companies all around the world.",
-  avatarUrl: "https://dcolinmorgan.github.io/images/dc_hk2.jpg",
+  avatarUrl: "https://avatars.githubusercontent.com/u/1395951?v=4",
   personalWebsiteUrl: "https://dcolinmorgan.github.io",
   contact: {
     email: "daniel.morgan@duck.com",
