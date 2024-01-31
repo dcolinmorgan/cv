@@ -22,8 +22,10 @@ import { XIcon } from "../components/icons/XIcon";
 export const RESUME_DATA = {
   name: "Daniel Colin Morgan",
   initials: "DCM",
-  location: "Hong Kong, SAR",
+  location: "Hong Kong, HKSAR",
   locationLink: "https://www.google.com/maps/place/HongKong",
+  alt_location: "Gotland, Sweden",
+  alt_locationLink: "https://www.google.com/maps/place/Gotland",
   about:
     "Research Engineer focused on building products with extra attention to details",
   summary:
@@ -31,7 +33,7 @@ export const RESUME_DATA = {
     I lead teams effectively, ensuring an environment where people can do their best work. \
     Currently, I work mostly with Python, CUDA/RAPIDS and Bash. \
     I have over 10 years of experience in working with universities and companies all around the world.",
-  // avatarUrl: "",
+  avatarUrl: "https://dcolinmorgan.github.io/images/dc_hk2.jpg",
   personalWebsiteUrl: "https://dcolinmorgan.github.io",
   contact: {
     email: "daniel.morgan@duck.com",
@@ -74,7 +76,7 @@ export const RESUME_DATA = {
       link: "https://graphistry.com",
       badges: ["Remote"],
       title: "Junior Research Engineer",
-      // logo: GraphistryLogo,
+      logo: "https://avatars.githubusercontent.com/u/6157633?s=200&v=4",
       start: "2022",
       end: "tbd",
       description:
@@ -94,7 +96,7 @@ export const RESUME_DATA = {
     {
       company: "Hong Kong Univeristy",
       link: "hku.hk",
-      badges: [],
+      badges: ["Hong Kong, HKSAR"],
       title: "Research Fellow",
       // logo: HKULogo,
       start: "2021",
@@ -116,6 +118,7 @@ export const RESUME_DATA = {
     {
       title: "cu-cat",
       techStack: [
+        "feature-engineering",
         "python",
         "RAPIDS",
         "CUML/CUDF",
@@ -124,15 +127,15 @@ export const RESUME_DATA = {
       description: "An end-to-end gpu feature encoder developed for Graphistry",
       // logo: CUCATLogo,
       link: {
-        label: "github.com/graphistry/cu-cat",
-        href: "github.com/graphistry/cu-cat",
+        label: "https://github.com/graphistry/cu-cat/",
+        href: "https://github.com/graphistry/cu-cat/",
       },
     },
     {
       title: "graphistry",
-      techStack: ["python", "RAPIDS", "GPU"],
-      description:
-        "Graph Vizualization built on GPUs",
+      techStack: ["network science","python", "RAPIDS", "GPU"],
+      description: "Graph Vizualization built on GPUs",
+      avatarUrl: "https://avatars.githubusercontent.com/u/6157633?s=200&v=4",
       link: {
         label: "graphistry.com",
         href: "https://graphistry.com/",
@@ -150,14 +153,25 @@ export const RESUME_DATA = {
       },
     },
     {
+      title: "Viral_Snake",
+      techStack: ["singularity","snakemake","bioinformatics","python","Bash"],
+      description:
+        "Message Passing Family of Algorithms for Inferring Biological Networks",
+      link: {
+        label: "github.com/Viral_Snake",
+        href: "https://github.com/dcolinmorgan/viral_snake",
+      },
+    },
+    
+    {
       title: "GeneSPIDER",
       techStack: ["MATLAB","R","python"],
       description:
         "Platform for synthetic biological data generation and network inference",
       // logo: Minimal,
       link: {
-        label: "genespider.github.io",
-        href: "https://genespider.github.io/",
+        label: "https://sonnhammer-tutorials.bitbucket.io/genespider.html",
+        href: "https://sonnhammer-tutorials.bitbucket.io/genespider.html",
       },
     },
   ],
@@ -175,14 +189,50 @@ export const RESUME_DATA = {
       },
     },
     {
+      title: "Perturbation-based gene regulatory network inference to unravel oncogenic mechanisms",
+      // techStack: [],
+      description:
+        "",
+      // logo: BarepapersLogo,
+      tags: ["Gene regulatory networks","Microarrays","Regulatory networks","RNAi"],
+      link: {
+        label: "SciRep",
+        href: "https://doi.org/10.1038/s41598-020-70941-y",
+      },
+    },
+    {
+      title: "A generalized framework for controlling FDR in gene regulatory network inference",
+      // techStack: ["PostDoc","Harvard","Python","Bash"],
+      description:
+        "Repurposing open-source data to improve TF-binding prediction over conventional inference methods",
+      // logo: BarepapersLogo,
+      tags: ["Bioinformatics", "Machine Learning", "Epigenetics"],
+      link: {
+        label: "Bioinformatics2019",
+        href: "https://doi.org/10.1093/bioinformatics/bty764",
+      },
+    },
+    {
+      title: "Altered human gut virome in patients undergoing antibiotics therapy for Helicobacter pylori",
+      // techStack: ["PostDoc","HKU","Python","Bash"],
+      description:
+        "Our results demonstrate that H. pylori eradication therapies not only result in transient alteration in gut microbiota but also significantly alter the previously less known gut virome community.",
+      // logo: BarepapersLogo,
+      tags: ["Gastrointestinal diseases","Microbial ecology","Stomach diseases"],
+      link: {
+        label: "Nature Communications",
+        href: "https://doi.org/10.1038/s41467-023-37975-y",
+      },
+    },
+    {
       title: "GeneSPIDER",
       // techStack: ["MATLAB"],
       description: "Inferring biological networks at scale from single-cell and bulk -omics data",
       // logo: GSLogo,
       tags: ["Bioinformatics", "Network Biology", "Machine Learning"],
       link: {
-        label: "genespider.github.io",
-        href: "https://genespider.github.io/",
+        label: "https://bitbucket.org/sonnhammergrni/genespider/src/master/",
+        href: "https://bitbucket.org/sonnhammergrni/genespider/src/master/",
       },
     },
   ],

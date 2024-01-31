@@ -34,6 +34,16 @@ export default function Page() {
                 {RESUME_DATA.location}
               </a>
             </p>
+            <p className="max-w-md items-center text-pretty font-mono text-xs text-muted-foreground">
+              <a
+                className="inline-flex gap-x-1.5 align-baseline leading-none hover:underline"
+                href={RESUME_DATA.alt_locationLink}
+                target="_blank"
+              > 
+                <GlobeIcon className="h-3 w-3" />
+                {RESUME_DATA.alt_location}
+              </a>
+            </p>
             <div className="flex gap-x-1 pt-1 font-mono text-sm text-muted-foreground print:hidden">
               {RESUME_DATA.contact.email ? (
                 <a href={`mailto:${RESUME_DATA.contact.email}`}>
