@@ -66,8 +66,8 @@ export const RESUME_DATA = {
     {
       school: "Ohio State University",
       degree: "Masters of Science Degree in Bioinformatics with thesis in biological networks clique merger algorithm",
-      start: "2015",
-      end: "2019",
+      start: "2012",
+      end: "2014",
     },
   ],
   work: [
@@ -84,10 +84,10 @@ export const RESUME_DATA = {
     },
     {
       company: "Harvard Medical School",
-      link: "hms.harvard.edu",
+      link: "https://hms.harvard.edu",
       badges: ["Boston, MA"],
       title: "Postdoctoral Research Fellow",
-      // logo: HMSLogo,
+      logo: "https://hms.harvard.edu/themes/shared/harvardmedical/logo.svg",
       start: "2019",
       end: "2021",
       description:
@@ -95,10 +95,10 @@ export const RESUME_DATA = {
     },
     {
       company: "Hong Kong Univeristy",
-      link: "hku.hk",
+      link: "https://hku.hk",
       badges: ["Hong Kong, HKSAR"],
       title: "Research Fellow",
-      // logo: HKULogo,
+      logo: "https://hku.hk/assets/img/hku-logo.svg?t=1678891777",
       start: "2021",
       end: "2022",
       description:
