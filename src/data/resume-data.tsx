@@ -191,15 +191,15 @@ export const RESUME_DATA = {
       },
     },
     {
-      title: "Altered human gut virome in patients undergoing antibiotics therapy for Helicobacter pylori",
+      title: "MetaQuad: shared informative variants discovery in metagenomic samples",
       // techStack: ["PostDoc", "HKU", "Puthon", "Bash"],
       description:
-        "demonstrate that H. pylori eradication therapies not only result in transient alteration in gut microbiota but also significantly alter the previously less known gut virome community.",
+        "MetaQuad utilizes a density-based clustering technique to effectively distinguish between shared variants and non-polymorphic sites using shotgun metagenomic data.",
       // logo: BarepapersLogo,
       tags: ["Metagenomics","Bioinformatics"],
       link: {
-        label: "Nature Communications",
-        href: "https://doi.org/10.1038/s41467-023-37975-y",
+        label: "Bioinformatics Advances",
+        href: "https://doi.org/10.1093/bioadv/vbae030",
       },
     },
     {
