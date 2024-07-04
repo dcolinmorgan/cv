@@ -80,7 +80,7 @@ export const RESUME_DATA = {
       start: "2022",
       end: "tbd",
       description:
-        "Implemented new speedier features for feature engineering and analyzing any and all data, Technologies: RAPIDS, CUDF, CUML, Python, Docker, Kubernetes, AWS",
+        "Contribute to development of AI agents utilizing LLMs, develop GPU-accelerated network analysis toolkit and libraries, and build graph-based analysis and machine learning pipelines, Technologies: RAPIDS, CUDF, CUML, Python, Docker, Kubernetes, AWS",
     },
     {
       company: "Harvard Medical School",
@@ -124,6 +124,7 @@ export const RESUME_DATA = {
         "RAPIDS",
         "CUML/CUDF",
         "GPU",
+        "AI Agents/LLM",
       ],
       description: "An end-to-end gpu feature encoder developed for Graphistry",
       // logo: CUCATLogo,
@@ -190,6 +191,18 @@ export const RESUME_DATA = {
       },
     },
     {
+      title: "Altered human gut virome in patients undergoing antibiotics therapy for Helicobacter pylori",
+      // techStack: ["PostDoc", "HKU", "Puthon", "Bash"],
+      description:
+        "demonstrate that H. pylori eradication therapies not only result in transient alteration in gut microbiota but also significantly alter the previously less known gut virome community.",
+      // logo: BarepapersLogo,
+      tags: ["Metagenomics","Bioinformatics"],
+      link: {
+        label: "Nature Communications",
+        href: "https://doi.org/10.1038/s41467-023-37975-y",
+      },
+    }
+    {
       title: "Perturbation-based gene regulatory network inference to unravel oncogenic mechanisms",
       // techStack: [],
       description:
@@ -203,7 +216,6 @@ export const RESUME_DATA = {
     },
     {
       title: "A generalized framework for controlling FDR in gene regulatory network inference",
-      // techStack: ["PostDoc","Harvard","Python","Bash"],
       description:
         "Repurposing open-source data to improve TF-binding prediction over conventional inference methods",
       // logo: BarepapersLogo,
