@@ -201,7 +201,7 @@ export const RESUME_DATA = {
         label: "Nature Communications",
         href: "https://doi.org/10.1038/s41467-023-37975-y",
       },
-    }
+    },
     {
       title: "Perturbation-based gene regulatory network inference to unravel oncogenic mechanisms",
       // techStack: [],
