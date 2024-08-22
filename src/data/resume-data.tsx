@@ -84,7 +84,7 @@ export const RESUME_DATA = {
       badges: ["world"],
       title: "AI Lead, co-founder",
       logo: "https://avatars.githubusercontent.com/u/178369694?s=400&u=ab48ac008a5ed5a65474f1c3c2f74488cf58da42&v=4",
-      start: "2022",
+      start: "2024",
       end: "tbd",
       description:
         "GENERATIVE AI SOLUTIONS FOR FASHION AND LUXURY CONTENT",
@@ -96,7 +96,7 @@ export const RESUME_DATA = {
       title: "Research Engineer",
       logo: "https://avatars.githubusercontent.com/u/6157633?s=200&v=4",
       start: "2022",
-      end: "tbd",
+      end: "2024",
       description:
         "Contribute to development of AI agents utilizing LLMs, develop GPU-accelerated network analysis toolkit and libraries, and build graph-based analysis and machine learning pipelines, Technologies: RAPIDS, CUDF, CUML, Python, Docker, Kubernetes, AWS",
     },
