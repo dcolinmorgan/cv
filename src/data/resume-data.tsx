@@ -98,7 +98,7 @@ export const RESUME_DATA = {
       start: "2022",
       end: "tbd",
       description:
-        "Implemented new speedier features for feature engineering and analyzing any and all data, Technologies: RAPIDS, CUDF, CUML, Python, Docker, Kubernetes, AWS",
+        "Contribute to development of AI agents utilizing LLMs, develop GPU-accelerated network analysis toolkit and libraries, and build graph-based analysis and machine learning pipelines, Technologies: RAPIDS, CUDF, CUML, Python, Docker, Kubernetes, AWS",
     },
     {
       company: "Harvard Medical School",
@@ -142,6 +142,7 @@ export const RESUME_DATA = {
         "RAPIDS",
         "CUML/CUDF",
         "GPU",
+        "AI Agents/LLM",
       ],
       description: "An end-to-end gpu feature encoder developed for Graphistry",
       // logo: CUCATLogo,
@@ -208,6 +209,18 @@ export const RESUME_DATA = {
       },
     },
     {
+      title: "MetaQuad: shared informative variants discovery in metagenomic samples",
+      // techStack: ["PostDoc", "HKU", "Puthon", "Bash"],
+      description:
+        "MetaQuad utilizes a density-based clustering technique to effectively distinguish between shared variants and non-polymorphic sites using shotgun metagenomic data.",
+      // logo: BarepapersLogo,
+      tags: ["Metagenomics","Bioinformatics"],
+      link: {
+        label: "Bioinformatics Advances",
+        href: "https://doi.org/10.1093/bioadv/vbae030",
+      },
+    },
+    {
       title: "Perturbation-based gene regulatory network inference to unravel oncogenic mechanisms",
       // techStack: [],
       description:
@@ -221,7 +234,6 @@ export const RESUME_DATA = {
     },
     {
       title: "A generalized framework for controlling FDR in gene regulatory network inference",
-      // techStack: ["PostDoc","Harvard","Python","Bash"],
       description:
         "Repurposing open-source data to improve TF-binding prediction over conventional inference methods",
       // logo: BarepapersLogo,
