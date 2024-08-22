@@ -56,11 +56,11 @@ export const RESUME_DATA = {
         url: "https://x.com/dcolinmorgan",
         icon: XIcon,
       },
-      {
-        name: "HuggingFace",
-        url: "https://huggingface.co/Dcolinmorgan",
-        icon: HFIcon,
-      },
+      // {
+      //   name: "HuggingFace",
+      //   url: "https://huggingface.co/Dcolinmorgan",
+      //   // icon: HFIcon,
+      // },
     ],
   },
   education: [
