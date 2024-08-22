@@ -30,9 +30,11 @@ export const RESUME_DATA = {
     "Research Engineer focused on building products with extra attention to details",
   summary:
     "As a Bioinformaticist turned Engineer, I have successfully taken multiple products from 0 to 1. \
-    I lead teams effectively, ensuring an environment where people can do their best work. \
-    Currently, I work mostly with Python, CUDA/RAPIDS and Bash. \
-    I have over 10 years of experience in working with universities and companies all around the world.",
+    I have over 10 years of experience in working with universities and companies all around the world. \
+    I lead and contribute to teams effectively, ensuring a team can do its best work.\
+    I work mostly with Python, CUDA/RAPIDS and Bash. \
+    Recently, I turned to building products that solve real-world problems.",
+  
   avatarUrl: "https://avatars.githubusercontent.com/u/1395951?v=4",
   personalWebsiteUrl: "https://dcolinmorgan.github.io",
   contact: {
@@ -54,6 +56,11 @@ export const RESUME_DATA = {
         url: "https://x.com/dcolinmorgan",
         icon: XIcon,
       },
+      {
+        name: "HuggingFace",
+        url: "https://huggingface.co/Dcolinmorgan",
+        icon: HFIcon,
+      },
     ],
   },
   education: [
@@ -72,10 +79,21 @@ export const RESUME_DATA = {
   ],
   work: [
     {
+      company: "Modegen-AI",
+      link: "https://modegen.ai",
+      badges: ["world"],
+      title: "AI Lead, co-founder",
+      logo: "https://avatars.githubusercontent.com/u/178369694?s=400&u=ab48ac008a5ed5a65474f1c3c2f74488cf58da42&v=4",
+      start: "2022",
+      end: "tbd",
+      description:
+        "GENERATIVE AI SOLUTIONS FOR FASHION AND LUXURY CONTENT",
+    },
+    {
       company: "Graphistry",
       link: "https://graphistry.com",
-      badges: ["Remote"],
-      title: "Junior Research Engineer",
+      badges: ["earth"],
+      title: "Research Engineer",
       logo: "https://avatars.githubusercontent.com/u/6157633?s=200&v=4",
       start: "2022",
       end: "tbd",
