@@ -1,6 +1,7 @@
 /** @type {import('next').NextConfig} */
-module.exports = {
-  basePath: '/cv',
-  assetPrefix: '/cv/',
-  output: 'export',
+const nextConfig = {
+  reactStrictMode: true,
+  // Add any other necessary configurations
 }
+
+module.exports = nextConfig
